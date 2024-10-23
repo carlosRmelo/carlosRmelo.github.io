@@ -8,7 +8,7 @@ redirect_from:
 ---
 <blockquote>
   <p>The basic question the person wants to ask and answer is "Who am I? What is the meaning of my life? What value does it have?" And we can only get answers to these questions by reviewing our relationships to others, what we do to others and for others, and what kind of response we get from them.</p>
-    <div style="text-align: right"><cite>Ernest Becker in  The Birth and Death of Meaning</cite></div>
+    <div style="text-align: right"><cite>Ernest Becker, The Birth and Death of Meaning</cite></div>
 </blockquote>
 
 <div style="text-align: justify">
