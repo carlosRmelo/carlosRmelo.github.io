@@ -10,7 +10,6 @@ list:
       - title: "The Fall"
         author: Albert Camus
 
-
       - title: "Mona Lisa Overdrive"
         author: William Gibson
 
@@ -40,6 +39,11 @@ list:
 
       - title: "Exhalation: Stories"
         author: Ted Chiang
+
+      - title: "A Hora da Estrela"
+        author: Clarice Lispector
+        star: yes
+
         
   - year: "2023"
     books:
