@@ -1,4 +1,4 @@
-lastupdate: October 23, 2024
+lastupdate: December 08, 2024
 list:
   - year: "2024"
     books:
@@ -43,6 +43,10 @@ list:
       
       - title: "A Hora da Estrela"
         author: Clarice Lispector
+      
+      - title: "The Worm at the Core: On the Role of Death in Life"
+        author: Sheldon Solomon, Jeff Greenberg, Tom Pyszczynski
+        star: yes
         
   - year: "2023"
     books:
