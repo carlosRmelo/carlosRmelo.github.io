@@ -1,5 +1,11 @@
 lastupdate: December 08, 2024
 list:
+  - year: "2025"
+    books:
+      - title: "Pedro Páramo"
+        author: Juan Rulfo
+        star: no
+
   - year: "2024"
     books:
       - title: "Mistborn: The Well of Ascension"
