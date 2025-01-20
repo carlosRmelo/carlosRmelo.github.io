@@ -5,6 +5,10 @@ list:
       - title: "Pedro Páramo"
         author: Juan Rulfo
         star: no
+      
+      - title: "A Morte e o Meteoro"
+        author: Joca Reiners Terron
+        star: yes
 
   - year: "2024"
     books:
