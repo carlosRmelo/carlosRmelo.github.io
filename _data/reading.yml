@@ -9,6 +9,10 @@ list:
       - title: "A Morte e o Meteoro"
         author: Joca Reiners Terron
         star: yes
+      
+      - title: "The Gambler"
+        author: Fyodor Dostoevsky
+        star: no
 
   - year: "2024"
     books:
