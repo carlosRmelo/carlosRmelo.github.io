@@ -2,6 +2,10 @@ lastupdate: December 08, 2024
 list:
   - year: "2025"
     books:
+      - title: "The Divine Embrace"
+        author:  Martin Aspelund
+        star: no
+        
       - title: "Pedro Páramo"
         author: Juan Rulfo
         star: no
