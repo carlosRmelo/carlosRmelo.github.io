@@ -1,7 +1,15 @@
-lastupdate: December 08, 2024
+lastupdate: May 30, 2025
 list:
   - year: "2025"
     books:
+      - title: "En Agosto nos Vemos"
+        author: Gabriel García Márquez
+        star: no
+
+      - title: "Mistborn: The Hero of Ages"
+        author: Brandon Sanderson
+        star: yes
+
       - title: "O Reino deste Mundo"
         author: Alejo Carpentier
         star: no
