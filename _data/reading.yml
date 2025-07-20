@@ -1,7 +1,10 @@
-lastupdate: July 05, 2025
+lastupdate: July 20, 2025
 list:
   - year: "2025"
     books:
+      - title: "We Have Always Lived in the Castle"
+        author: Shirley Jackson
+
       - title: "The Fifth Science"
         author: Exurb1a
 
