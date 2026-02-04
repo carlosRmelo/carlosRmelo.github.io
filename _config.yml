@@ -24,9 +24,9 @@ author:
   avatar           : "img.png"
   name             : "Carlos Roberto de Melo Carneiro"
   pronouns         : "he/him" # example: "she/her"  
-  bio              : "PhD Candidate in Astrophysics"
-  location         : "Porto Alegre, Brazil"
-  employer         : "UFRGS"
+  bio              : "Postdoctoral researcher at SJTU"
+  location         : "Shanghai, China"
+  employer         : "SJTU"
   uri              : # URL
   email            : "crmc.melo@gmail.com" 
 
@@ -78,9 +78,9 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+    title: 'Principal Works'
+  coauthor:
+    title: 'Collaborations'    
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
