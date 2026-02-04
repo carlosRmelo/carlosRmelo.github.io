@@ -1,7 +1,22 @@
-lastupdate: September 09, 2025
+lastupdate: February 04, 2026
 list:
+  - year: "2026"
+    books:
+      - title: "Babel, or The Necessity of Violence"
+        author: R. F. Kuang
+
   - year: "2025"
     books:
+      - title: "Malazan Book of the Fallen: Gardens of the Moon"
+        author: Steven Erikson
+
+      - title: "A Wizard of Earthsea"
+        author: Ursula K. Le Guin
+        star: yes
+
+      - title: "The Old Man and the Sea"
+        author: Ernest Hemingway
+
       - title: "As Coisas que Perdemos no Fogo"
         author: Mariana Enriquez
 
