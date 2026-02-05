@@ -4,7 +4,7 @@ collection: teaching
 type: "Mini course"
 excerpt: ''
 permalink: /teaching/nestedUFES
-venue: "Federal University of Espírito Santo, Physics Department"
+venue: "Federal University of Espírito Santo, PPGCosmos"
 date: 2025-09-11
 location: "Vitória, Brazil"
 ---
