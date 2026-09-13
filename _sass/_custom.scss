@@ -174,3 +174,70 @@ body {
     background: $primary-color;
   }
 }
+
+/*
+   Buttons — fix broken hover state, soften card shadows
+   ========================================================================== */
+
+/* The theme's base .btn:hover mixes toward near-black regardless of the
+   button's own color; every other variant darkens itself correctly. */
+.btn:not(.btn--inverse):not(.btn--light-outline):hover {
+  background-color: mix(#000, $primary-color, 20%);
+}
+
+.archive__item:hover .archive__item-teaser,
+.archive a:hover img {
+  box-shadow: 0 4px 16px rgba(44, 44, 44, 0.12);
+}
+
+/*
+   Taxonomy tags — tinted pills instead of bordered boxes
+   ========================================================================== */
+
+.page__taxonomy-item {
+  background-color: mix($background-color, $primary-color, 90%);
+  border-color: transparent;
+  color: $text-color;
+
+  &:hover {
+    background-color: $primary-color;
+    color: $body-color;
+  }
+}
+
+/*
+   Code blocks — match body type scale, tint the corner icon
+   ========================================================================== */
+
+div.highlighter-rouge, figure.highlight {
+  font-size: $type-size-5;
+
+  &:before {
+    background-color: mix($background-color, $primary-color, 85%);
+  }
+}
+
+/*
+   Tables — use the flattened border/tint palette
+   ========================================================================== */
+
+table, th, td {
+  border-color: $border-color;
+}
+
+thead {
+  background-color: mix($background-color, $primary-color, 92%);
+}
+
+/*
+   Notices — drop the colored drop-shadow to match flattened UI
+   ========================================================================== */
+
+.notice,
+.notice--primary,
+.notice--info,
+.notice--warning,
+.notice--success,
+.notice--danger {
+  box-shadow: none;
+}
