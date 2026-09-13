@@ -2,6 +2,38 @@ lastupdate: February 04, 2026
 list:
   - year: "2026"
     books:
+      - title: "Blood Meridian"
+        author: Cormac McCarthy
+      
+      - title: "Orbital"
+        author: Samantha Harvey
+      
+      - title: "The Great God Pan"
+        author: Arthur Machen
+        star: yes
+      
+      - title: "Staring at the Sun: Overcoming the Terror of Death"
+        author: Irvin D. Yalom
+      
+      - title: "Dune Messiah"
+        author: Frank Herbert
+      
+      - title: "The Lathe of Heaven"
+        author: Ursula K. Le Guin
+        star: yes
+      
+      - title: "Os Imortais"
+        author: Paulliny Tort
+      
+      - title: "The Song of Achilles"
+        author: Madeline Miller
+      
+      - title: "Normal People"
+        author: Sally Rooney
+      
+      - title: "Red Rising"
+        author: Pierce Brown
+
       - title: "Babel, or The Necessity of Violence"
         author: R. F. Kuang
 
