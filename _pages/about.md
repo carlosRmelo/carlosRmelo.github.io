@@ -11,7 +11,7 @@ redirect_from:
     <div style="text-align: right"><cite>Ernest Becker, The Birth and Death of Meaning</cite></div>
 </blockquote>
 
-<div style="text-align: justify">
+<div class="bio-content">
 Hello folks! Although I cannot give a definitive answer to this question, I can at least offer a few hints.
 <br><br>
 I’m a Brazilian Postdoctoral Fellow at the Department of Astronomy of Shanghai Jiao Tong University. Previously, I obtained my PhD in Astrophysics from the Federal University of Rio Grande do Sul (2024), where I worked on the intersection of strong gravitational lensing and stellar dynamics. My research focuses on combining these two phenomena to deepen our understanding of galaxies and the Universe. In particular, I have been developing and refining joint strong-lensing and stellar-dynamics techniques to more accurately probe the mass distribution of early-type galaxies acting as gravitational lenses. I am also interested in how these mass distributions can be used to test gravity and shed light on galaxy evolution. More recently, using the techniques developed during my PhD, my collaborators and I were able to measure the mass of an ultramassive black hole at the centre of the massive lens galaxy known as the Cosmic Horseshoe. My (academic) interests include exploring new methods in strong lensing and stellar dynamics, galaxy evolution, hydrodynamical simulations, and finding creative ways to combine all of these areas.

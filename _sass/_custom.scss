@@ -117,6 +117,9 @@ body {
    Surfaces — no pure white slabs against the cool background
    ========================================================================== */
 
+/* Only the small-screen popup version of this list needs a filled surface —
+   at $large it renders inline in the sidebar and must stay transparent,
+   otherwise it shows as a white box against the page background. */
 .author__urls.social-icons {
   background: $body-color;
   box-shadow: 0 2px 10px rgba(44, 44, 44, 0.08);
@@ -124,6 +127,11 @@ body {
   /* dropdown arrow fill must match the new surface colour */
   &:after {
     border-color: $body-color transparent;
+  }
+
+  @include breakpoint($large) {
+    background: transparent;
+    box-shadow: none;
   }
 }
 
@@ -240,4 +248,139 @@ thead {
 .notice--success,
 .notice--danger {
   box-shadow: none;
+}
+
+/*
+   Sidebar fix — institution/location were fully hidden below 1024px
+   ========================================================================== */
+
+/* The theme sets .author__desktop to display:none under 1024px, which
+   hides the location and employer/institution lines on any phone, tablet,
+   or non-maximized window. They're short one-liners with an icon — safe
+   to show at every width. */
+.sidebar .author__desktop {
+  display: block;
+}
+
+/* The theme sets white-space:nowrap on every sidebar link li, which is fine
+   for short labels but forces the (now always-visible) location/employer
+   lines to overflow past the sidebar edge instead of wrapping. */
+.author__urls li.author__desktop {
+  white-space: normal;
+  overflow-wrap: break-word;
+  line-height: 1.4;
+}
+
+/*
+   About / bio content — comfortable measure and paragraph rhythm
+   ========================================================================== */
+
+.bio-content {
+  max-width: 42em;
+  line-height: 1.75;
+}
+
+/*
+   Archive items — visual hierarchy between title, venue, excerpt, links
+   ========================================================================== */
+
+.archive__item-venue {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: $gray;
+  font-size: $type-size-6;
+}
+
+.archive__item-links {
+  margin-top: 0.75em;
+
+  .archive__item-citation {
+    display: block;
+    margin-bottom: 0.5em;
+    color: $gray;
+    font-size: $type-size-6;
+  }
+
+  .btn {
+    margin-right: 0.35em;
+  }
+}
+
+/*
+   Reading list — year timeline with styled book entries
+   ========================================================================== */
+
+.last-update {
+  margin-bottom: 1.5em;
+  color: $gray;
+  font-size: $type-size-6;
+  font-style: italic;
+}
+
+.year-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  padding: 1.25em 0;
+  border-top: 1px solid $border-color;
+
+  &:first-of-type {
+    border-top: 0;
+  }
+}
+
+.year {
+  flex: 0 0 auto;
+  width: 100%;
+
+  @include breakpoint($medium) {
+    width: 100px;
+  }
+
+  h4 {
+    margin: 0;
+    font-family: $header-font-family;
+    font-size: $type-size-4;
+    color: $primary-color;
+  }
+}
+
+.number {
+  color: $gray;
+  font-size: $type-size-7;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.books {
+  flex: 1 1 300px;
+}
+
+.reading-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: 0.4em 0;
+    border-bottom: 1px solid $border-color;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  .author {
+    display: block;
+    margin-top: 0.15em;
+    color: $gray;
+    font-size: $type-size-6;
+  }
+
+  .star {
+    margin-left: 0.15em;
+    color: $primary-color;
+    font-size: 0.7em;
+    vertical-align: super;
+  }
 }

@@ -9,8 +9,7 @@ redirect_from:
 
 <!-- This is a personal compilation of myself by ... myself (?) -->
 <br>
-Here you'll find a brief list of books I've read recently. Since I started this list only one year ago (and don't have as much time as I used to have), it's quite short, but I promise it's honest.
-Books I strongly recommend are starred.
+Here you'll find a brief list of books I've read recently. Books I strongly recommend are starred.
 <br>
 
 <br>
@@ -34,9 +33,8 @@ Books I strongly recommend are starred.
             <a href="{{ book.link }}" target="_blank" rel="nofollow noopener">{{ book.title }}</a>
           {% else %}
               {{ book.title }}
-          {% endif %}
-          <span class="author">by {{ book.author }}</span
-          >{% if book.star %}<span class="star">★</span>{% endif %}
+          {% endif %}{% if book.star %}<span class="star">★</span>{% endif %}
+          <span class="author">by {{ book.author }}</span>
         </li>
         {% endfor %}
       </ul>
